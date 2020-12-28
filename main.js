@@ -12,3 +12,12 @@ var Color;
 })(Color || (Color = {}));
 ;
 console.log(Color.Green);
+var str;
+str = "STRING";
+console.log(str.length);
+console.log(str.length);
+var drawPoint = function (point) {
+    //
+    console.log("point: ", point);
+};
+drawPoint({ x: 1, y: 2 });
