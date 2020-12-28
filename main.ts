@@ -13,8 +13,11 @@ str = "STRING";
 console.log((<string>str).length);
 console.log((str as string).length);
 
-
-let drawPoint = (point: {x: number, y:number}) => {
+interface Point {
+    x: number,
+    y: number
+}
+let drawPoint = (point: Point) => {
     console.log("point: ", point);
 }
 drawPoint({x: 1, y: 2});
